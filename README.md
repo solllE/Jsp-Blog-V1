@@ -14,11 +14,11 @@
 
 ## MySQL 데이터베이스 생성 및 사용자 생성
 
-'''sql
+...sql
 create user 'bloguser'@'%' identified by 'bitc5600';
 GRANT ALL PRIVILEGES ON *.* TO 'bloguser'@'%';
 create database blog;
-'''
+...
 
 ## MySQL 테이블 생성
 
